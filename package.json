@@ -15,7 +15,8 @@
     "jwt"
   ],
   "dependencies": {
-    "jsonwebtoken": "^8.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "koa-jwt": "^4.0.4",
     "koa-jwt2": "^1.0.3"
   },
   "devDependencies": {

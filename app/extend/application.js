@@ -1,6 +1,6 @@
 'use strict';
 
-const koajwt = require('koa-jwt2');
+const koajwt = require('koa-jwt');
 const UnauthorizedError = require('koa-jwt2/lib/errors/UnauthorizedError');
 const jwt = require('jsonwebtoken');
 const JWT = Symbol('Application#jwt');

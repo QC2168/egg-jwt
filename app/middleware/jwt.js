@@ -1,6 +1,6 @@
 'use strict';
 
-const koajwt = require('koa-jwt2');
+const koajwt = require('koa-jwt');
 
 module.exports = options => {
   return koajwt(options);
